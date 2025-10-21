@@ -65,7 +65,6 @@ const OrdersTable = () => {
           className="bg-white p-4 rounded-xl shadow-md flex flex-col gap-3"
         >
           <p><strong>Order ID:</strong> {order.id}</p>
-          <p><strong>User :</strong> {user.email}</p>
           <p><strong>User ID:</strong> {order.user_id}</p>
           <p><strong>Address:</strong> {order.address}</p>
           <p><strong>Phone:</strong> {order.phone}</p>
