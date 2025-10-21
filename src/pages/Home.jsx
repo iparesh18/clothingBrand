@@ -68,7 +68,7 @@ const Home = () => {
       {/* RIGHT 3D MODEL */}
       <div className="hidden md:flex md:w-1/3 h-full items-center justify-center">
         <model-viewer
-          src="src/assets/model/jacket.glb"
+          src="/assets/model/jacket.glb"
           alt="3D Model"
           auto-rotate
           camera-controls
